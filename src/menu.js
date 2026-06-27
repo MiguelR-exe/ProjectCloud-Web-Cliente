@@ -1,0 +1,68 @@
+// Catálogo de platos — estilo Madam Tusan (chifa peruano)
+// Las imágenes usan placeholders; reemplázalas por fotos reales del menú si quieres.
+export const MENU = [
+  {
+    id: "p1",
+    nombre: "Arroz Chaufa Tusan",
+    descripcion: "Arroz salteado al wok con cerdo char siu, langostinos y huevo.",
+    precio: 38,
+    categoria: "Arroces",
+    emoji: "🍚",
+  },
+  {
+    id: "p2",
+    nombre: "Lomo Saltado Oriental",
+    descripcion: "Lomo fino salteado con sillao, kion y cebolla china.",
+    precio: 45,
+    categoria: "Saltados",
+    emoji: "🥢",
+  },
+  {
+    id: "p3",
+    nombre: "Wantán Frito (8 u.)",
+    descripcion: "Wantanes crocantes rellenos de cerdo, con salsa tamarindo.",
+    precio: 24,
+    categoria: "Entradas",
+    emoji: "🥟",
+  },
+  {
+    id: "p4",
+    nombre: "Pollo Tipakay",
+    descripcion: "Pollo crocante bañado en salsa agridulce con piña.",
+    precio: 39,
+    categoria: "Pollos",
+    emoji: "🍗",
+  },
+  {
+    id: "p5",
+    nombre: "Tallarín Saltado Tusan",
+    descripcion: "Tallarín al wok con verduras crujientes y trozos de cerdo.",
+    precio: 36,
+    categoria: "Tallarines",
+    emoji: "🍜",
+  },
+  {
+    id: "p6",
+    nombre: "Sopa Wantán",
+    descripcion: "Caldo de la casa con wantanes, char siu y verduras.",
+    precio: 28,
+    categoria: "Sopas",
+    emoji: "🍲",
+  },
+  {
+    id: "p7",
+    nombre: "Chancho al Sillao",
+    descripcion: "Costillas glaseadas en sillao oscuro y especias chinas.",
+    precio: 42,
+    categoria: "Saltados",
+    emoji: "🐷",
+  },
+  {
+    id: "p8",
+    nombre: "Chicha Morada Jarra",
+    descripcion: "Refrescante chicha morada de la casa, 1 litro.",
+    precio: 18,
+    categoria: "Bebidas",
+    emoji: "🥤",
+  },
+];
